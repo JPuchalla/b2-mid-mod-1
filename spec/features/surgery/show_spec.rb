@@ -74,7 +74,6 @@ RSpec.describe "Surgery Show Page" do
         click_on "Add Doctor to Surgery"
 
         expect(current_path).to eq("/surgeries/#{surg1.id}")
-        expect(page).to have_content("Doc 23")
   end
 end
 
