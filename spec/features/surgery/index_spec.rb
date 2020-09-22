@@ -26,10 +26,3 @@ RSpec.describe "Surgeries index page " do
     expect(page).to have_content(doc3.name)
   end
 end
-
-# 
-# User Story 1, Surgery Index
-# As a visitor
-# When I visit a surgery’s index page (‘/surgeries’)
-# I see the title of all surgeries
-# And for each surgery I see the names of all doctors performing that surgery

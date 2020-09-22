@@ -39,16 +39,5 @@ RSpec.describe "Surgery Show Page" do
 
     expect(page).to have_content("Other surgeries happening this day of the week:")
     expect(page).to have_content("surgery 4")
-    save_and_open_page
   end
 end
-
-
-# User Story 2 , Surgery Show Page
-# As a visitor
-# When I visit the surgery index page
-# I can click on any surgery title to take me to that surgery’s show page
-# And on the show page I see the title and operating room number of that surgery
-# And I see a section of the page that says "Other surgeries happening this day of the week:"
-# And under that header I see titles of all surgeries that happen on the same day of the week as this surgery.
-# (Note: You do not need to use the created_at or updated_at columns for Surgeries)
